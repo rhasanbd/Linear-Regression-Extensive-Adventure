@@ -1,4 +1,4 @@
-# Linear Regression - OLS 
+# Linear Regression - An Extensive Adventure
 
 
 There are two very different solution approaches for the Linear Regression problem.
