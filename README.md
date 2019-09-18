@@ -2,8 +2,9 @@
 
 
 There are two very different solution approaches for the Linear Regression problem.
-    - The “closed-form” solution approach known as the Ordinary Least Squares (OLS) method.
-    - Iterative optimization approach known as Gradient Descent (GD).
+
+- The “closed-form” solution approach known as the Ordinary Least Squares (OLS) method.
+- Iterative optimization approach known as Gradient Descent (GD).
     
 
 We will perform an extensive investigation of these two approaches using **Scikit-Learn** in a series of four notebooks. For this exploration we will use the Boston Housing dataset that has 506 samples and 13 features.
