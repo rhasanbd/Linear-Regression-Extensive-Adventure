@@ -18,10 +18,17 @@ We will perform an extensive investigation of these two approaches using **Sciki
 There are four notebooks on sklearn Linear Regression.
 
 1. Linear Regression-1-OLS
+        
         -- OLS method & Regularized OLS Method (Ridge Rergression)
+        
 2. Linear Regression-2-OLS Polynomial Regression-Frequentist Approach (MLE)
+        
         -- Polynomial regression using the OLS method
+        
 3. Linear Regression-3-OLS Polynomial Regression-Bayesian Approach (MAP)
+
         -- Polynomial regression using the regularized OLS method
+        
 4. Linear Regression-4-Gradient Descent
+
         -- Iterative optimization approach (Gradient Descent & Stochastic Gradient Descent)
