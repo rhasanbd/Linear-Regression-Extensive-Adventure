@@ -4,13 +4,11 @@ https://nbviewer.jupyter.org/
 # Linear Regression - An Extensive Adventure
 
 
-There are two very different solution approaches for the Linear Regression problem.
+There are two very different **algorithms or approaches** for implementing the Linear Regression model.
 
 - The “closed-form” solution approach known as the Ordinary Least Squares (OLS) method.
-- Iterative optimization approach known as Gradient Descent (GD).
-    
-
-We will perform an extensive investigation of these two approaches using **Scikit-Learn** in a series of four notebooks. For this exploration we will use the Boston Housing dataset that has 506 samples and 13 features.
+- Iterative optimization approach known as the Gradient Descent (GD).
+We will perform an extensive investigation of these two approaches using Scikit-Learn in a series of four notebooks. For this exploration we will use the Boston Housing dataset that has 506 samples and 13 features.
 
 
 ## Index for the Notebook Series on Scikit-Learn Solutions for Linear Regression
