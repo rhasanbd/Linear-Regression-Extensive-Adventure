@@ -30,6 +30,11 @@ There are four notebooks on sklearn Linear Regression.
 4. Linear Regression-4-Gradient Descent
 
         -- Iterative optimization approach (Gradient Descent & Stochastic Gradient Descent)
+        
+
+5. PLinear Regression-5-Polynomial SGD Regressor Model Selection
+
+        -- Perform model selection when using Stochastic Gradient Descent (SGD) algorithm for a Polynomial Regression Model
 
 
 
