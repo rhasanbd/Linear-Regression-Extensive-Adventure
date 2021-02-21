@@ -89,4 +89,4 @@ We should use the SGD when we need to train huge training sets. Also, SGD can be
     
       -- Use the regularized OLS method if dataset and feature set is not too large (notebook 3)
     
-      -- Use the regularized GD approach otherwise (notebook 4)
+      -- Use the regularized GD approach otherwise (notebook 4 & 5)
