@@ -1,4 +1,4 @@
-If github in unable to render a Jupyter notebook, copy the link of the notebook and enter into the nbviewer:
+If GitHub is unable to render a Jupyter Notebook, copy the link of the notebook and enter it into the nbviewer:
 https://nbviewer.jupyter.org/
 
 # Linear Regression - An Extensive Adventure
@@ -6,9 +6,9 @@ https://nbviewer.jupyter.org/
 
 There are two very different **algorithms or approaches** for implementing the Linear Regression model.
 
-- The “closed-form” solution approach known as the Ordinary Least Squares (OLS) method.
+- The “closed-form” solution approach is known as the Ordinary Least Squares (OLS) method.
 - Iterative optimization approach known as the Gradient Descent (GD).
-We will perform an extensive investigation of these two approaches using Scikit-Learn in a series of four notebooks. For this exploration we will use the Boston Housing dataset that has 506 samples and 13 features.
+We will perform an extensive investigation of these two approaches using Scikit-Learn in a series of four notebooks. For this exploration, we will use the Boston Housing dataset which has 506 samples and 13 features.
 
 
 ## Index for the Notebook Series on Scikit-Learn Solutions for Linear Regression
@@ -17,7 +17,7 @@ There are four notebooks on sklearn Linear Regression.
 
 1. Linear Regression-1-OLS
         
-        -- OLS method & Regularized OLS Method (Ridge Rergression)
+        -- OLS method & Regularized OLS Method (Ridge Regression)
         
 2. Linear Regression-2-OLS Polynomial Regression-Frequentist Approach (MLE)
         
@@ -34,7 +34,7 @@ There are four notebooks on sklearn Linear Regression.
 
 5. Linear Regression-5-Polynomial SGD Regressor Model Selection
 
-        -- Perform model selection when using Stochastic Gradient Descent (SGD) algorithm for a Polynomial Regression Model
+        -- Perform model selection when using the Stochastic Gradient Descent (SGD) algorithm for a Polynomial Regression Model
 
 
 
@@ -47,13 +47,13 @@ The computational complexity of inverting such a matrix is typically about $O(d^
 
 - Limitations: 
 
-        -- The OLS method gets very slow when the number of features are large (e.g., 100,000).
+        -- The OLS method gets very slow when the number of features is large (e.g., 100,000).
     
         -- It requires the entire dataset to be stored in the memory.
 
 - When Should We Use the OLS Method?
 
-This method is linear with regards to the number of instances in the training set (it is $O(n)$).
+This method is linear with regard to the number of instances in the training set (it is $O(n)$).
 So, it handles large training sets efficiently, provided they can fit in memory.
 Generally, we should use the OLS method when the **dataset is not large (can be stored in memory) and  the number of features is not large**.
 
@@ -63,7 +63,7 @@ Generally, we should use the OLS method when the **dataset is not large (can be 
 We explore two variants of the GD approach: Batch GD and Stochastic GD (SGD). There is yet another variant known as mini-batch GD.
 
     Batch Gradient Descent: 
-It uses the whole batch of training data at every step. As a result it is terribly slow on very large training sets. 
+It uses the whole batch of training data at every step. As a result, it is terribly slow on very large training sets. 
 
 - When Should We Use the Batch GD?
 
@@ -81,12 +81,12 @@ We should use the SGD when we need to train huge training sets. Also, SGD can be
 
 ## High-Level Summary (A Pragmatic Guideline)
 
-- Determine the level of complexity of pattern in the dataset.
+- Determine the level of complexity of the pattern in the dataset.
     
       -- Generate the degree vs. RMSE curve (see notebook 2) and determine the optimal complexity (polynomial degree) of the model
     
 - Implement the regularized polynomial regression (using the optimal degree).
     
-      -- Use the regularized OLS method if dataset and feature set is not too large (notebook 3)
+      -- Use the regularized OLS method if the dataset and feature set are not too large (notebook 3)
     
-      -- Use the regularized GD approach otherwise (notebook 4 & 5)
+      -- Use the regularized GD approach otherwise (notebooks 4 & 5)
